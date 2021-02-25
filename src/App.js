@@ -7,6 +7,7 @@ import Props from './components/Props'
 import Arrow from './components/Arrow'
 import StateComponent from './components/StateComponent'
 import Condition from './components/Condition'
+import VariableElement from './components/VariableElement'
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Arrow></Arrow>
         <StateComponent></StateComponent>
         <Condition></Condition> 
+        <VariableElement></VariableElement>
     </div>
   );
 }
