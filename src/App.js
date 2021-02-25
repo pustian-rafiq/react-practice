@@ -6,6 +6,7 @@ import ClassComponent from './components/ClassComponent'
 import Props from './components/Props'
 import Arrow from './components/Arrow'
 import StateComponent from './components/StateComponent'
+import Condition from './components/Condition'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         
         <Arrow></Arrow>
         <StateComponent></StateComponent>
+        <Condition></Condition> 
     </div>
   );
 }
