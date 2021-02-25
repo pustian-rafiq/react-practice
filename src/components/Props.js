@@ -4,7 +4,7 @@ import React from 'react';
 
 function Props(props){
     return(
-        <h1>Hello, I am {props.name} and my age is {props.age}</h1>
+        <h5>Hello, I am {props.name} and my age is {props.age}</h5>
     );
 }
 

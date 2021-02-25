@@ -4,6 +4,7 @@ import './App.css';
 import FunctionalComponent from './components/FunctionalComponent'
 import ClassComponent from './components/ClassComponent'
 import Props from './components/Props'
+import Arrow from './components/Arrow'
 
 function App() {
   return (
@@ -11,9 +12,8 @@ function App() {
        <FunctionalComponent></FunctionalComponent>
        <ClassComponent></ClassComponent>
        <Props name="Rafiqul" age="24"></Props>
-       <Props name="Ruma" age="20"></Props>
-       <Props name="Rabiul" age="29"></Props>
-       <Props name="Kamrunnahar" age="21"></Props>
+        
+        <Arrow></Arrow>
     </div>
   );
 }
