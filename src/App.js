@@ -8,7 +8,8 @@ import Arrow from './components/Arrow'
 import StateComponent from './components/StateComponent'
 import Condition from './components/Condition'
 import VariableElement from './components/VariableElement'
-import ReactDom from './components/ReactDom'
+// import ReactDom from './components/ReactDom'
+import Form from './components/Form'
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,8 @@ function App() {
         <StateComponent></StateComponent>
         <Condition></Condition> 
         <VariableElement></VariableElement>
-        <ReactDom></ReactDom>
+        {/* <ReactDom></ReactDom> */}
+        <Form></Form>
     </div>
   );
 }
