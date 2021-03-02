@@ -11,6 +11,7 @@ import VariableElement from './components/VariableElement'
 // import ReactDom from './components/ReactDom'
 import Form from './components/Form'
 import Select from './components/Select'
+import List from './components/List'
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
         {/* <ReactDom></ReactDom> */}
         <Form></Form>
         <Select></Select>
+        <List></List><br></br><br></br>
     </div>
   );
 }
