@@ -10,6 +10,7 @@ import Condition from './components/Condition'
 import VariableElement from './components/VariableElement'
 // import ReactDom from './components/ReactDom'
 import Form from './components/Form'
+import Select from './components/Select'
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <VariableElement></VariableElement>
         {/* <ReactDom></ReactDom> */}
         <Form></Form>
+        <Select></Select>
     </div>
   );
 }
